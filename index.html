@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
-
+<!--------HEAD--------->
 <head>
-    <!-- Required meta tags -->
+<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
@@ -14,42 +15,48 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <title>BuseShares</title>
-</head>
 
+</head>
+<!--------END HEAD--------->
+
+<!--------BODY--------->
 <body>
 
-
+<!--------CONTAINES BOOTSTRAP--------->
 <div class="container">
-<!--**************           NAVBAR                 *********************************************************************-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">BuseShares</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quien Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    
-                </ul>
-                <div>
-                    <button type="button" class="btn btn-outline-primary">Loging</button>
-                     <button type="button" class="btn btn-outline-primary">Registro</button>
-                </div>
+<!--------NAVBAR DE NAVEGACION-------->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">BuseShares</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quien Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>  
+            </ul>
+            <div>
+                <button type="button" class="btn btn-outline-primary">Loging</button>
+                <button type="button" class="btn btn-outline-primary">Registro</button>
             </div>
         </div>
-    </nav>
-<!--*********************CAROUSEL******************************************************************************************-->
+    </div>
+</nav>
+
+<!--------END DE NAVABAR DE NAVEGACION--------->
+
+<!--------CARROSUEL------------------------>
 
 <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -60,7 +67,13 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
     </div>
+
+<!--------CARROSUEL DE IMAGENES Y TITULOS --------->
+
     <div class="carousel-inner">
+
+<!--------CARROSUEL IMAGEN PRIMERA--------->
+
         <div class="carousel-item active">
             <img src="./img/banner.jpg" class="d-block w-100 active img-fluid" alt="">
             <div class="carousel-caption d-none d-md-block">
@@ -68,6 +81,11 @@
                 <p>Lorem ipsum dolor sit amet..</p>
             </div>
         </div>
+
+<!--------END CARROSUEL IMAGEN PRIMERA--------->
+
+<!--------CARROSUEL IMAGEN SEGUNDA--------->
+
         <div class="carousel-item">
             <img src="./img/banner2.jpg" class="d-block w-100 img-fluid" alt="">
             <div class="carousel-caption d-none d-md-block">
@@ -75,6 +93,11 @@
                 <p class="text-dark">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
         </div>
+
+<!--------END CARROSUEL IMAGEN SEGUNDA--------->
+
+<!--------CARROSUEL IMAGEN TERCERA--------->
+
         <div class="carousel-item">
             <img src="./img/banner4.jpg" class="d-block w-100 img-fluid" alt="">
             <div class="carousel-caption d-none d-md-block">
@@ -82,7 +105,14 @@
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
         </div>
+
+<!--------END CARROUSEL IMAGEN TERCERA--------->
+
+<!--------EN CARROSUEL DE IMAGENAES--------->
     </div>
+
+<!--------CARROSUEL BOTONES DE DESPLAZAMIENTO --------->
+
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -91,174 +121,560 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+
+<!--------END CARROSUEL BOTONES DE DESPLAZAMIENTO--------->
+
 </div>
 
-<!--**************              TITULO         *************************************************************************-->
+<!--------END CARROSUEL----------------------------------->
+
+
+<!--------TITULO PRINCIPAL DE LA ONE PAGE--------->
 
 <div class="h1 d-flex justify-content-center p-5">
     <h1>BuseShares</h1>
 </div>
 
-<!--**************              DESCRIPCION         *************************************************************************-->
+<!--------END TITULO PRINCIPAL DE LA ONE PAGE--------->
+
+<!--------ESQUEMA DE IOCTOPUS.ONLINE DESCRIPCION ONE PAGE --------->
 
 <div class="row">
-    <div class="col-6">
 
-        <img src="./img/foto1.jpg" alt="">
-
+    <div class="text-center">
+        <img src="img/Diagrama.png" class=" img-fluid rounded" alt="...">
     </div>
-    <div class="col-6">
 
-        <div class="h2">Titulo</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nihil accusantium dignissimos a? Omnis non sint doloribus accusantium temporibus! Similique rem, ab voluptatum ipsa deleniti a quisquam sequi neque optio!</p>
-
-    </div>
 </div>
 
-<!--**************              CARDS        *************************************************************************-->
+<!--------ESQUEMA DE IOCTOPUS.ONLINE DESCRIPCION ONE PAGE --------->
 
+<!--------CARD DE INFORMACION DE LA DESCRIPCION DE LO QUE OFRECEN LAS EMPRESA --------->
+
+<!--------CARD COMIENZO DE  LA PRIMERA FILA --------->
 <div class="row p-2 mt-5">
-    <div class="col-sm-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
+
+<!--------CARD COMIENZO DE LA PRIMERA FILA TIENE TRES COLUMNAS --------->
+
+<!--------CARD COMIENDO LA PRIMERA COLUMNA DE LA PRIMERA FILA --------->
+<div class="col-sm-4">
+<div class="card">
+        <!--------CARD HEADER --------->
+        <div class="card-header d-flex justify-content-start">
+            <img src="./img/foto1.jpg" class="img-fluid" alt="">
+        </div>
+
+        <!-------- END CARD HEADER--------->
+
+        <!--------CARD BODY--------->
+
+        <div class="car-body p-3">
+            <!--------CARD BODY TITLE--------->
+            <h5 class="card-title">Empresa del Sector de la Construcción</h5>
+            <!--------CARD BODY TEXT--------->
+            <p class="card-text">Empresa internacional ofrece ....</p>
+            <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+            <div class="accordion accordion-flush" id="accordion1">
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER --------->
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                    <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse1" aria-expanded="false"
+                            aria-controls="flush-collapse1">
+                            Información basica
+                        </button>
+                    </h2>
+                <!------- END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE--------->
+                        <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+
+                    <div id="flush-collapse1" class="accordion-collapse collapse" 
+                            aria-labelledby="flush-heading1" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                            <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                            <table class="table">
+                                <tbody>
+                                    <tr class="tr-dark">
+                                        <th scope="row">Empresa</th>
+                                        <td>Nike</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Part Venta</th>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Part Total</th>
+                                        <td>100</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Importe Venta</th>
+                                        <td>6.000<span>€</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Importe Total</th>
+                                        <td>6000.000<span>€</span></td>
+                                    </tr>
+                                </tbody>
+                            <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                            </table>
+                        </div>
+                    </div>
+                <!--------END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  DESPEGABLE--------->
                 </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+            </div>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+    <!--------CARD FOOTER------------------>
+    <div class="card-foote p-3">
+        <div class="row justify-content-evenly">
+            <div class="col-6">
+                <a href="#" class="btn btn-primary">¿Quieres más información?</a>
+            </div>
+            <div class="col-6">
+                <a href="#" class="btn btn-primary">¿Quieres conctatar con la Empresa?</a>
             </div>
         </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
-                </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
-                </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
-                </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+        <!--------END FOOTER------------------>
         </div>
     </div>
 </div>
+<!--------END CARD lA PRIMERA COLUMNA DE LA PRIMERA FILA --------->
+</div>
+<!--------CARD COMIENDO LA SEGUNDA COLUMNA DE LA PRIMERA FILA --------->
+<div class="col-sm-4">
+    <div class="card">
+        <!--------CARD HEADER --------->
+        <div class="card-header d-flex justify-content-start">
+            <img src="./img/foto1.jpg" class="img-fluid" alt="">
+        </div>
 
-<!--*********************CARDS******************************************************************************************-->
+        <!-------- END CARD HEADER--------->
 
-<div class="row p-2 mb-5">
-    <div class="col-sm-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
+        <!--------CARD BODY--------->
+
+        <div class="car-body p-3">
+            <!--------CARD BODY TITLE--------->
+            <h5 class="card-title">Empresa del Sector de la Construcción</h5>
+            <!--------CARD BODY TEXT--------->
+            <p class="card-text">Empresa internacional ofrece ....</p>
+            <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+            <div class="accordion accordion-flush" id="accordion1">
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER --------->
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                            Información basica
+                        </button>
+                    </h2>
+                    <!------- END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE--------->
+                    <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+
+                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                        data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                            <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                            <table class="table">
+                                <tbody>
+                                    <tr class="tr-dark">
+                                        <th scope="row">Empresa</th>
+                                        <td>Nike</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Part Venta</th>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Part Total</th>
+                                        <td>100</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Importe Venta</th>
+                                        <td>6.000<span>€</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Importe Total</th>
+                                        <td>6000.000<span>€</span></td>
+                                    </tr>
+                                </tbody>
+                                <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                            </table>
+                        </div>
+                    </div>
+                    <!--------END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  DESPEGABLE--------->
                 </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+            <!--------CARD FOOTER------------------>
+            <div class="card-foote p-3">
+                <div class="row justify-content-evenly">
+                    <div class="col-6">
+                        <a href="#" class="btn btn-primary">¿Quieres más información?</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="btn btn-primary">¿Quieres conctatar con la Empresa?</a>
+                    </div>
                 </div>
-                <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                <!--------END FOOTER------------------>
             </div>
         </div>
     </div>
-    <div class="col-sm-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
+
+    <!--------END CARD LA SEGUNDA COLUMNA DE LA PRIMERA FILA --------->
+</div>
+<!--------CARD COMIENDO LA TERCERA COLUMNA DE LA PRIMERA FILA --------->
+<div class="col-sm-4">
+    <div class="card">
+        <!--------CARD HEADER --------->
+        <div class="card-header d-flex justify-content-start">
+            <img src="./img/foto1.jpg" class="img-fluid" alt="">
+        </div>
+
+        <!-------- END CARD HEADER--------->
+
+        <!--------CARD BODY--------->
+
+        <div class="car-body p-3">
+            <!--------CARD BODY TITLE--------->
+            <h5 class="card-title">Empresa del Sector de la Construcción</h5>
+            <!--------CARD BODY TEXT--------->
+            <p class="card-text">Empresa internacional ofrece ....</p>
+            <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+            <div class="accordion accordion-flush" id="accordion1">
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER --------->
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                            Información basica
+                        </button>
+                    </h2>
+                    <!------- END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE--------->
+                    <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+
+                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                        data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                            <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                            <table class="table">
+                                <tbody>
+                                    <tr class="tr-dark">
+                                        <th scope="row">Empresa</th>
+                                        <td>Nike</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Part Venta</th>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Part Total</th>
+                                        <td>100</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Importe Venta</th>
+                                        <td>6.000<span>€</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Importe Total</th>
+                                        <td>6000.000<span>€</span></td>
+                                    </tr>
+                                </tbody>
+                                <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                            </table>
+                        </div>
+                    </div>
+                    <!--------END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  DESPEGABLE--------->
                 </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+            <!--------CARD FOOTER------------------>
+            <div class="card-foote p-3">
+                <div class="row justify-content-evenly">
+                    <div class="col-6">
+                        <a href="#" class="btn btn-primary">¿Quieres más información?</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="btn btn-primary">¿Quieres conctatar con la Empresa?</a>
+                    </div>
                 </div>
-                <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                <!--------END FOOTER------------------>
             </div>
         </div>
     </div>
-    <div class="col-sm-3">
+
+    <!--------END CARD LA TERCERA COLUMNA DE LA PRIMERA FILA --------->
+</div>
+<!--------END CARD LA PRIMERA COLUMNA DE LA PRIMERA FILA --------->
+</div>
+
+
+<!--------CARD COMIENZO DE LA SEGUNDA FILA --------->
+<div class="row p-2 mt-5">
+
+    <!--------CARD COMIENZO DE LA SEGUNDA FILA TIENE TRES COLUMNAS --------->
+
+    <!--------CARD COMIENDO LA PRIMERA COLUMNA DE LA SEGUNDA FILA --------->
+    <div class="col-sm-4">
         <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
+            <!--------CARD HEADER --------->
+            <div class="card-header d-flex justify-content-start">
+                <img src="./img/foto1.jpg" class="img-fluid" alt="">
+            </div>
+
+            <!-------- END CARD HEADER--------->
+
+            <!--------CARD BODY--------->
+
+            <div class="car-body p-3">
+                <!--------CARD BODY TITLE--------->
+                <h5 class="card-title">Empresa del Sector de la Construcción</h5>
+                <!--------CARD BODY TEXT--------->
+                <p class="card-text">Empresa internacional ofrece ....</p>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+                <div class="accordion accordion-flush" id="accordion1">
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER --------->
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                    <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                Información basica
+                            </button>
+                        </h2>
+                        <!------- END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                        <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE--------->
+                        <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+
+                        <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                            data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                                <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                                <table class="table">
+                                    <tbody>
+                                        <tr class="tr-dark">
+                                            <th scope="row">Empresa</th>
+                                            <td>Nike</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Part Venta</th>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Part Total</th>
+                                            <td>100</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Importe Venta</th>
+                                            <td>6.000<span>€</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Importe Total</th>
+                                            <td>6000.000<span>€</span></td>
+                                        </tr>
+                                    </tbody>
+                                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                                </table>
+                            </div>
+                        </div>
+                        <!--------END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  DESPEGABLE--------->
+                    </div>
                 </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+                <!--------CARD FOOTER------------------>
                 <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row justify-content-evenly">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-primary">¿Quieres más información?</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-primary">¿Quieres conctatar con la Empresa?</a>
+                        </div>
+                    </div>
+                    <!--------END FOOTER------------------>
                 </div>
             </div>
         </div>
+        <!--------END CARD lA PRIMERA COLUMNA DE LA SEGUNDA FILA --------->
     </div>
-    <div class="col-sm-3">
+    <!--------CARD COMIENZO LA SEGUNDA COLUMNA DE LA SEGUNDA FILA --------->
+    <div class="col-sm-4">
         <div class="card">
-            <div class="card-body">
-                <div class="card-header d-flex justify-content-start">
-                    <img src="./img/ilustracion.png" alt="" style="width: 60px;">
-                    <h3 class="align-self-end m-4">Empresa</h3>
+            <!--------CARD HEADER --------->
+            <div class="card-header d-flex justify-content-start">
+                <img src="./img/foto1.jpg" class="img-fluid" alt="">
+            </div>
+
+            <!-------- END CARD HEADER--------->
+
+            <!--------CARD BODY--------->
+
+            <div class="car-body p-3">
+                <!--------CARD BODY TITLE--------->
+                <h5 class="card-title">Empresa del Sector de la Construcción</h5>
+                <!--------CARD BODY TEXT--------->
+                <p class="card-text">Empresa internacional ofrece ....</p>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+                <div class="accordion accordion-flush" id="accordion1">
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER --------->
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                    <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                Información basica
+                            </button>
+                        </h2>
+                        <!------- END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                        <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE--------->
+                        <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+
+                        <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                            data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                                <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                                <table class="table">
+                                    <tbody>
+                                        <tr class="tr-dark">
+                                            <th scope="row">Empresa</th>
+                                            <td>Nike</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Part Venta</th>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Part Total</th>
+                                            <td>100</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Importe Venta</th>
+                                            <td>6.000<span>€</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Importe Total</th>
+                                            <td>6000.000<span>€</span></td>
+                                        </tr>
+                                    </tbody>
+                                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                                </table>
+                            </div>
+                        </div>
+                        <!--------END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  DESPEGABLE--------->
+                    </div>
                 </div>
-                <div class="car-body p-3">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+                <!--------CARD FOOTER------------------>
                 <div class="card-foote p-3">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row justify-content-evenly">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-primary">¿Quieres más información?</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-primary">¿Quieres conctatar con la Empresa?</a>
+                        </div>
+                    </div>
+                    <!--------END FOOTER------------------>
                 </div>
             </div>
         </div>
+
+        <!--------END CARD LA SEGUNDA COLUMNA DE LA SEGUNDA FILA --------->
     </div>
+    <!--------CARD COMIENZO LA TERCERA COLUMNA DE LA SEGUNDA FILA --------->
+    <div class="col-sm-4">
+        <div class="card">
+            <!--------CARD HEADER --------->
+            <div class="card-header d-flex justify-content-start">
+                <img src="./img/foto1.jpg" class="img-fluid" alt="">
+            </div>
+
+            <!-------- END CARD HEADER--------->
+
+            <!--------CARD BODY--------->
+
+            <div class="car-body p-3">
+                <!--------CARD BODY TITLE--------->
+                <h5 class="card-title">Empresa del Sector de la Construcción</h5>
+                <!--------CARD BODY TEXT--------->
+                <p class="card-text">Empresa internacional ofrece ....</p>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+                <div class="accordion accordion-flush" id="accordion1">
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER --------->
+                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                    <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                Información basica
+                            </button>
+                        </h2>
+                        <!------- END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  TITULO --------->
+                        <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE--------->
+                        <!--------hay que cambiar los id para que los acordeones funcione independiente --------->
+
+                        <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                            data-bs-parent="#accordion1">
+                            <div class="accordion-body">
+                                <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                                <table class="table">
+                                    <tbody>
+                                        <tr class="tr-dark">
+                                            <th scope="row">Empresa</th>
+                                            <td>Nike</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Part Venta</th>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Part Total</th>
+                                            <td>100</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Importe Venta</th>
+                                            <td>6.000<span>€</span></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Importe Total</th>
+                                            <td>6000.000<span>€</span></td>
+                                        </tr>
+                                    </tbody>
+                                    <!--------CARD BODY ACORDEON DE INFORMACION BASICA DESPEGABLE TABLA--------->
+                                </table>
+                            </div>
+                        </div>
+                        <!--------END CARD BODY ACORDEON DE INFORMACION BASICA HEADER  DESPEGABLE--------->
+                    </div>
+                </div>
+                <!--------CARD BODY ACORDEON DE INFORMACION BASICA --------->
+                <!--------CARD FOOTER------------------>
+                <div class="card-foote p-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-primary">¿Quieres más información?</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-primary">¿Quieres conctatar con la Empresa?</a>
+                        </div>
+                    </div>
+                    <!--------END FOOTER------------------>
+                </div>
+            </div>
+        </div>
+
+        <!--------END CARD LA TERCERA COLUMNA DE LA SEGUNDA FILA --------->
+    </div>
+    <!--------END CARD LA PRIMERA COLUMNA DE LA SEGUNDA FILA --------->
 </div>
 
 
@@ -281,7 +697,7 @@
 
 <!--**************              Footer                      *************************************************************************-->
 
-<footer class="bg-dark text-center text-white">
+<footer class="bg-primary text-center text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -320,15 +736,7 @@
 </footer>
 
 </div>
-
-
 </div>
-
-
-
-
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
