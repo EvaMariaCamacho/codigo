@@ -1,64 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
 
-<!-- Bootstrap CSS -->
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+include_once 'conexion.php';
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+include_once 'includes/header.php';
 
-<link rel="stylesheet" href="css/style.css">
+?>
 
-<title>BuseShares</title>
 
-</head>
-<!--------END HEAD--------->
-<body>
 <div class="container">
+
+<?php include_once 'includes/nav.php'; ?>
+
+<div class="jumbotron m-5">
     <div class="row">
-        <div class="class-12">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">BuseShares</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Quien Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <button type="button" href="login.html" class="btn btn-outline-primary"><a href="login.html"
-                                style="text-decoration: none;">Login</a></button>
-                        <button type="button" class="btn btn-outline-primary">Registro</button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="class-12">
+        <div class="col-sm-4">
 
-            <div class="h1 text-center p-5">Login</div>
         </div>
-        <div class="row">
-        <div class="col-4">
-            <img src="img/foto1.jpg" class="img-thumbnail" alt="">
-        </div>
+        <div class="col-sm-8">
+            <h2 class="mb-5">Contacto</h2>
+         </div>
+    </div>
+   
+  <div class="row">
+    <div class="col-sm-4">
 
-        <div class="col-8">
+        <img src="img/ilustracion.png" class="img-fluid" alt="Responsive image">
+
+    </div>
+    <div class="col-sm-8 mb-5">
             <form class="row g-3">
                 <div class="col-md-12">
                     <label for="inputeEmpresa" class="form-label">Empresa</label>
@@ -111,9 +81,16 @@
                     <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
             </form>
+
+    </div>
+
+  </div>
+</div>
+       
+            
             </div>
 
-        </div>
+        
 
 
 
@@ -121,7 +98,5 @@
     </div>
 </div>
 
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</body>
-</html>
+<?php include_once 'includes/footer.php'; ?>
+
