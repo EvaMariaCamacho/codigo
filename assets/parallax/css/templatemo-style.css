@@ -30,7 +30,7 @@ p {
 .primary-white-button a {
 	display: inline-block;
 	background-color: #b1441e;
-	font-size: 13px;
+	font-size: 15px;
 	padding: 12px 18px;
 	color: #eae0c2;
 	font-weight: 500;
@@ -42,7 +42,7 @@ p {
 
 .primary-blue-button a {
 	display: inline-block;
-	background-color: #33c1cf;
+	background-color: #042334;
 	font-size: 13px;
 	padding: 12px 18px;
 	color: #fff;
@@ -95,7 +95,7 @@ p {
 .navbar-nav>li>a {
 	color: #b1441e!important;
 	font-size: 13px;
-	font-weight: 300;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-shadow: none;
 	line-height: 80px;
@@ -202,10 +202,10 @@ bootstrap.min.css:5
 }
 
 .baner-content {
-	width: 40%;
+	width: 100%;
   	padding-top: 35vh;
-  	text-align: center;
-  	background-image: url(../../img/TechLife.png);
+  	text-align: right;
+  	background-image: url(../../img/banner2.jpg);
   	vertical-align: middle;
 	
 }
@@ -245,7 +245,7 @@ bootstrap.min.css:5
 
 #about {
 	padding: 150px 0px;
-	background-image: url(../../img/banner2.jpg);
+	background-image: url(../../img/banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -255,6 +255,9 @@ bootstrap.min.css:5
 
 #about .service-item {
 	text-align: center;
+	background-color: #19617c;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	
 }
 
@@ -264,9 +267,7 @@ bootstrap.min.css:5
 	display: inline-block;
 	text-align: center;
 	line-height: 104px;
-	border: 3px solid #042334;
 	border-radius: 50%;
-	background-color: #b1441e;
 }
 
 #about .service-item h4 {
@@ -302,7 +303,7 @@ bootstrap.min.css:5
 	padding: 30px 15px 0px 15px;
 }
 
-.filter-categories {;
+.filter-categories {
   margin-top: 60px;
 }
 
@@ -418,7 +419,7 @@ bootstrap.min.css:5
 
 
 #blog {
-	background-image: url(../img/blog-bg.jpg);
+	background-image: url(../../img/banner3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
