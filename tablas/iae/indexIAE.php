@@ -22,23 +22,21 @@ include_once '../../includes/header.php';
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Codigo Postal</th>
-                        <th>Poblacion</th>
-                        <th>Provincia</th>
+                        <th>Epigrafe</th>
+                        <th>Descripcion</th>
                     </tr>
                 </thead>
                 <tbody>
                     
                     <?php
 
-                        $query = "SELECT * FROM cnae";
+                        $query = "SELECT * FROM iae";
                         $result = mysqli_query($conn, $query);
 
                         while($row = mysqli_fetch_array($result)) { ?>
                     <tr>
-                            <td><?php echo $row['codigo'] ?></td>
-                            <td><?php echo $row['CNAE'] ?></td>
-                            <td><?php echo $row['definicion'] ?></td>
+                            <td><?php echo $row['epigrafe'] ?></td>
+                            <td><?php echo $row['descripcion'] ?></td>
                         
                         <td class="td-actions text-right">
                             <button type="button" rel="tooltip" class="btn btn-success btn-round">
